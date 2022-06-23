@@ -1,0 +1,19 @@
+<template>
+
+
+<lightning-card title="Baloes ">
+
+<ul>
+ <template for:each={contatos} for:item="itemCont">
+				<li key={itemCont.Id}> {itemCont.Nome} - {itemCont.Cargo} </li>
+			</template>
+			<!--
+	<li>cleiton Rasta, Presidente </li>
+  <li> Gato motoka , vice Presidente </li>
+	<li>Geladeira tsunami, Diretora Latan</li>
+
+	-->
+	</ul>
+	
+</lightning-card>
+</template>
